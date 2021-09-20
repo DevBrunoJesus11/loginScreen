@@ -1,0 +1,164 @@
+/* Reset in HTML patterns, reseting to 0; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    Settings of 'Body', set font : Poppins, alignment of items in center.
+    Margin 0, and gray color for Background.
+
+ */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    margin :0px;
+    background-color: rgba(2, 2, 46, 0.472);
+    text-shadow: 1px 1px gray;
+
+}
+
+/* 
+    globalContainer, div that contains all elements, occupying 100% of screen,
+    diplay flex for mor control of elements sons, direction row, for better exhibition.
+    For login form and yours sons keep in center of screen stay jystified in center.
+*/
+
+.globalContainer{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../img/background.jpg) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 15px;
+    min-width: 400px;
+    min-height: 400px;
+    background: rgb(29, 29, 97);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px rgb(94, 88, 88);
+    
+}
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(141, 141, 211);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.login{
+    min-width: 250px;
+    display: grid;
+}
+
+#button{
+    display: flex;
+}
+
+input{
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px rgb(56, 51, 51);
+    text-align: center;
+    outline: none;
+}
+
+/* 
+:hover to add effect big when mouse pass above;
+
+*/
+input:hover{
+    height: 45px;
+    background-color: darkslateblue;
+}
+
+
+.sigin{
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: aliceblue;
+}
+
+.cadastro{
+    width: 250px;
+    overflow: hidden;
+    display:none;
+
+}
+
+.signUp{
+    padding: 1rem;
+}
+
+.signUp:hover{
+    color: rgb(11, 6, 14);
+}
+
+/* 
+    This class show will be used in JS, it'll show div.registration for user create a login.
+*/
+
+.show{
+    display: grid;
+    transition: 1s;
+    opacity: 1;
+}
+
+/* 
+    This class hides div.login to show registratin screen.
+*/
+
+.hide{
+    display: none;
+    transition: 1s;
+    opacity: 0;
+}
+
+#termos{
+    margin: 10px;
+    padding: 10px;
+}
+
+#cadastrar{
+    align-items: center;
+    padding: 5px;
+    align-items: center;
+    margin: 1rem;
+}
+
+p{
+    color: rgb(141, 141, 211);
+    text-shadow: 1px 1px black;
+}
+
+footer{
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}

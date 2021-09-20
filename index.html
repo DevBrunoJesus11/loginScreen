@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="globalContainer">
+        <div class="box">
+            <div class="login">
+                <h1>LOGIN</h1>
+                <label for="username">
+                    <input type="text" id="id" placeholder="Email or UserName">
+                </label>
+                <label for="password">
+                <input type="text" id="passWord" placeholder="Password">
+                </label>
+                <label>
+                    <input type="submit" value="Sign in" id="button">
+                </label>
+                <div class="sigin">
+                    <p>
+                        <br>
+                        First time here?
+                        <input type="submit" value="Sign up" id="signUp">
+                    </p>
+                </div>
+            </div>
+            <div class="cadastro">
+                <h1>REGISTRATION</h1>
+                <label for="firstName">
+                    <input type="text" id="firstName" placeholder="Enter your first name">
+                </label>
+                <label for="secundName">
+                    <input type="text" id="secundName" placeholder="Enter your surname">
+                </label>
+                <label for="email">
+                    <input type="email" id="email" placeholder="enter your email">
+                </label>
+                <label for="password">
+                    <input type="password" id="password" placeholder="Create a password strong" minlength="8" required>
+                </label>
+                <p id="termos">
+                    Clicking agree, you acept all our terms.
+                <input type="checkbox" name="agree" id="check">
+                </p>
+                <label for="submit">
+                    <input type="submit" value="Submit" id="cadastrar">
+                </label>
+            </div>
+        </div>
+
+        <hr>
+    </div>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/DevBrunoJesus11" target="_blank_">®Bruno</a></p>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
