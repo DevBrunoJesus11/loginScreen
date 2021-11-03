@@ -21,7 +21,6 @@ function activateSignUp(){
     login.classList.add('hide');
     let cadastro = document.querySelector('.cadastro');
     cadastro.classList.add('show');
-    console.log('clicado');
 }
 
 
